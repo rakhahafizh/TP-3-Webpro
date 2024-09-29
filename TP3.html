@@ -6,23 +6,24 @@
     <title>TP 3</title>
 <style>
     body {
-        margin-left: 50px;
+        margin-left: 50px; /* Mengatur jarak margin kiri halaman */
     }
 </style>
 </head>
 <body>
-    <h1>Profil Pribadi</h1>
+    <h1>Profil Pribadi</h1> 
+    <!-- Membuat tabel untuk menampilkan foto dan video -->
     <table>
-        <tr> 
-            <th>Foto</th>
+        <tr> <!-- Membuat baris pada tabel-->
+            <th>Foto</th> <!-- Membuat judul kolom tabel dengan konten Foto & Video -->
             <th>Video</th>
         </tr>
         <tr>
-            <th><img src="fotorakha.jpg" alt="" height="300" ></th>
-            <th><video src="marstelyu.mp4" height="250" controls></video></th>
+            <th><img src="fotorakha.jpg" alt="" height="300" ></th> <!-- Menampilkan gambar foto pribadi -->
+            <th><video src="marstelyu.mp4" height="250" controls></video></th> <!-- Menampilkan video -->
         </tr> 
     </table>
-    <div>
+    <div> <!-- Membuat div untuk mengelompokkan bagian Tentang Saya -->
         <h2>Tentang Saya</h2>
         <p>Halo! Saya adalah seorang pengembang web antusias dengan passion di bidang teknologi informasi</p>
     </div>
@@ -52,16 +53,16 @@
         <input type="text" id="nama_id" name="nama" required>
         <br>
         <label for="email_id">Email:</label>
-        <input type="email" id="email_id" name="email" required>
+        <input type="email" id="email_id" name="email" required> <!--Input Teks Untuk Memasukkan alamat email-->
         <br>
         <label for="pesan_id">Pesan:</label>
         <br>
-        <textarea id="pesan_id" name="pesan" rows="3" required></textarea>
+        <textarea id="pesan_id" name="pesan" rows="3" required></textarea> <!-- Memasukkan Pesan -->
         <br>
-        <input type="submit" value="Kirim Pesan">
+        <button type="submit" class="btn btn-primary">Kirim Pesan</button> <!--Tombol Untuk Mengirim Pesan -->
     </form>
-    <button>Kirim Pesan</button>
     <h3><b>Media Sosial:</b></h3>
-    <a href="https://www.youtube.com/@TelkomUniversityOfficial">Youtube</a>
+    <a href="https://www.instagram.com/rakhahaf/">Instagram</a> <!-- Memasukkan Link atau Tautan-->
+    <a href="https://github.com/rakhahafizh">GitHub</a>
 </body>
 </html>
